@@ -1,0 +1,47 @@
+<DOCTYPE HTML>
+<html>
+<head> LISTS </head>
+<body>
+<h2>UNorderedList</h2>
+<table border="1" bordercolor= "purple">
+<tr>
+
+<ul type "Fruits">
+<td><li>Oranges</li></td>
+<td><li>Grapes</li></td>
+<td><li>Peach</li></td>
+
+</ul>
+</table>
+
+<br>
+<?php 
+echo 'TABLE ONE' ;
+?>
+
+<h3> Ordered List </h3>
+<table border="1" bordercolor="red">
+<tr>
+<th> Fruits</th>
+<th> Vegetables </th>
+</tr>
+
+<tr>
+<td><li>Oranges </td></li>
+<td><li> Pumpkin </li> </td>
+</tr>
+
+<tr>
+<td><li>Grapes</li></td>
+<td> <li> Potato </li> </td>
+</tr>
+
+<tr>
+<td><li>Peach</li></td>
+<td> <li> BeetRoot </li> </td>
+</tr>
+
+</ol>
+</table>
+
+</html>
