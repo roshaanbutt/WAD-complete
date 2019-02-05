@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+.wrapper {
+    position: relative;
+    width: 75%;
+    margin: auto;
+    background-color: #1ABC9C;
+    top: 100px;
+    padding: 10px;
+}
+
+
+li {
+    font-size: 2em;
+    color: #CD5C5C;
+}
+
+
+button {
+    margin: 5px auto;
+    background-color: #CD5C5C;
+    width: 150px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    float: none;
+    display: inherit;
+    cursor: pointer
+}
+
+
+span#next {
+    background-color: #CD5C5C;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#comment-area {
+    text-align: center;
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background-color: #CD5C5C;
+    color: white;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+
+#message {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+}
+
+#result {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+		background-color: #333333;
+		color: #ffffff;
+	}
+	.wrapper li {
+		color: #ffffff;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.wrapper li {
+		font-size: 1.5em;
+	}
+}
