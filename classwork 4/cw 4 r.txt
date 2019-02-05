@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head> FIRST FORM </head>
+<body>
+<form action="www.gmail.com" method="post">
+<table>
+     <tr>
+	    <td> NAME </td>
+		<td><input type "text" value =""> </td>
+		</tr>
+		<tr>
+		<td> EMAIL </td>
+		<td> <input type "email" value=""> </td>
+		</tr>
+		<tr>
+     <td> PASSWORD </td>
+	<td><input type="password" value=""> </td>
+	</tr>
+	<tr>
+	   <td> Class </td>
+	   <td>
+	   <select>
+	   <option value"m">A</option>
+	   <option value "f" > A</option>
+	   <option value "m"> B</option>
+	   <option value "f"> B </option>
+	<tr>
+	<td> Gender</td>
+	<td>
+	<select>
+	<option value="m">Male</option>
+	<option value="f">FEMALE</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	
+	<td>
+	Male<input name="user_gender" type="radio" value="Male">
+	FEMALE<input name="user_gender" type="radio" value="FEMALE">
+	</td>
+	</tr>
+	<table>
+	<td><input type ="submit" value="Submit" > </td>
+	</form>
+	</body>
+	</html>
